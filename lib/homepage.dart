@@ -395,6 +395,7 @@ class NotificationsPage extends StatelessWidget {
   }
 }
 
+
 // Placeholder Settings Page
 class SettingsPage extends StatelessWidget {
   const SettingsPage({super.key});
