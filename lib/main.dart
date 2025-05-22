@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:test2/login_page.dart';
+import 'package:test2/profile.dart';
 import 'package:test2/qrscannerscreen.dart';
 import 'package:test2/theme.dart';
 import 'device_page.dart';
@@ -36,7 +37,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.orange,
       ),
-      home: const LoginPage(), // Changed to ThemePage
+      home: const ProfileScreen(), // Changed to ThemePage
     );
   }
 }
